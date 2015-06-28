@@ -1,0 +1,1 @@
+http://www.redmondpie.com/inserting-in-and-retrieving-image-from-sql-server-database-using-c/
