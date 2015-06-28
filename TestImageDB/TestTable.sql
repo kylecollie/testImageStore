@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[TestTable]
+(
+	[Id] NVARCHAR(50) NOT NULL PRIMARY KEY, 
+    [pic] IMAGE NULL
+)
