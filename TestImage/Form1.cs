@@ -52,6 +52,7 @@ namespace TestImage
                     cmd.Parameters.Add(picParm);
                     cmd.ExecuteNonQuery();
                     MessageBox.Show("Image added", "Added", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    pictureBox1.Image = null;
                     cmd.Dispose();
                     conn.Close();
                     conn.Dispose();
@@ -152,6 +153,11 @@ namespace TestImage
                     pictureBox2.Refresh();
                 }
             }
+        }
+
+        private void frmTestImage_Load(object sender, EventArgs e)
+        {
+            Connection();
         }
     }
 }
